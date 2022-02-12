@@ -1,0 +1,24 @@
+{
+    "config": {
+        "vendor-dir": "../../vendor"
+    },
+    "require": {
+	"phpoffice/phpexcel": "1.8",
+        "facebook/php-sdk-v4": "^5.2",
+        "abraham/twitteroauth": "^0.6.4",
+        "php-http/guzzle6-adapter": "^1.1", 
+        "happyr/linkedin-api-client": "^0.7.2",
+        "linkedinapi/linkedin": "^1.1",
+        "plivo/plivo-php": "^1.1",
+        "cosenary/instagram": "^2.3",
+        "dirkgroenen/Pinterest-API-PHP": "^0.2.11",
+        "stripe/stripe-php": "5.*",
+        "hybridauth/hybridauth": "^2.8",
+        "ifsnop/mysqldump-php":"^2.7",
+        "facebook/webdriver": "^1.3",
+        "guzzlehttp/psr7": "^1.4",
+        "aws/aws-sdk-php": "^3.62",
+        "marcl/amazonproductapi": "^3.0",
+        "googleads/googleads-php-lib": "^43.0"
+    }
+}

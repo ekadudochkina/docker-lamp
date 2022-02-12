@@ -1,0 +1,14 @@
+/** Вертикальное позициорование элементов **/
+.vcenter > * {
+    display:inline-block;
+    vertical-align: middle;
+}
+.vcenter:before{
+    height:100%;
+    content: "";
+    display:inline-block;
+    vertical-align: middle;
+    visibility: hidden;
+    margin-left: -1px;
+
+}

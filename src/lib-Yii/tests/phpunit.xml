@@ -1,0 +1,59 @@
+<phpunit bootstrap="bootstrap.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="false"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+>
+    
+    <testsuites>     
+        <testsuite name="lib_all">
+            <directory>../tests</directory>
+        </testsuite>
+        <testsuite name="project_all">
+            <directory>../../protected/tests/</directory>
+        </testsuite>
+        <testsuite name="all_all">
+            <directory>../tests/</directory>
+            <directory>../../protected/tests</directory>
+        </testsuite>
+        <testsuite name="lib_functional">
+            <directory>../tests/functional</directory>
+        </testsuite>
+        <testsuite name="project_functional">
+            <directory>../../protected/tests/functional</directory>
+        </testsuite>
+        <testsuite name="all_functional">
+            <directory>../tests/functional</directory>
+            <directory>../../protected/tests/functional</directory>
+        </testsuite>
+        <testsuite name="lib_unit">
+            <directory>../tests/unit</directory>
+        </testsuite>
+        <testsuite name="project_unit">
+            <directory>../../protected/tests/unit</directory>
+        </testsuite>
+        <testsuite name="all_unit">
+            <directory>../tests/unit</directory>
+            <directory>../../protected/tests/unit</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">../components/</directory>
+            <directory suffix=".php">../scripts/commands/</directory>
+            <directory suffix=".php">../../protected/</directory>
+            <file>../Bootstraper.php</file>
+            <exclude>
+                <directory suffix=".php">../components/paypal</directory>
+                <directory suffix=".php">../components/paypaladaptivepayents</directory>
+                <directory suffix=".php">../components/paypaladaptiveaccounts</directory>
+                <directory suffix=".php">../components/test</directory>
+                <directory suffix=".php">../../protected/migrations</directory>
+                <directory suffix=".php">../../protected/tests</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>

@@ -1,0 +1,37 @@
+source: 
+    - ../../..
+exclude: 
+    - /nbproject
+    - /assets
+#    - /lib-Yii/framework
+    - /lib-Yii/framework/yiilite.php
+    - /lib-Yii/framework/cli/views
+    - /lib-Yii/framework/gii
+    - /lib-Yii/framework/test
+    - /lib-Yii/framework/vendors
+    - /protected/migrations
+    - /protected/extensions
+    - /protected/lib
+    - /lib-Yii/actions
+    - /lib-Yii/assets
+    - /lib-Yii/extensions
+    - /lib-Yii/paypal
+    - /lib-Yii/messages
+    - /lib-Yii/templates
+    - /lib-Yii/vendor
+    - /lib-Yii/utils
+    - /lib-Yii/tests
+    - /lib-Yii/views
+    - /lib-Yii/components/daemons
+    - /lib-Yii/components/test/mocks/comments
+    - /lib-Yii/components/PHPUnit_Extensions_Story_TestCase.php 
+    
+destination:  ../../../apigen/
+templateTheme: bootstrap
+todo: true
+download: true
+tree: true
+groups:  packages
+accessLevels: 
+    - public
+    - protected

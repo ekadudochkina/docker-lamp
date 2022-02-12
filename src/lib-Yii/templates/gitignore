@@ -1,0 +1,6 @@
+.DS_Store
+/assets/
+/protected/runtime/*
+/nbproject/private/
+/upload/*
+!/upload/test_*
