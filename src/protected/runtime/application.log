@@ -2825,3 +2825,491 @@ Stack trace:
 #13 {main}
 REQUEST_URI=/site
 ---
+2022/02/13 16:49:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "php.ini". in /var/www/html/lib-Yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('php.ini')
+#1 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/index.php(6): CApplication->run()
+#3 {main}
+REQUEST_URI=/php.ini
+---
+2022/02/13 17:12:34 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:12:35 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 17:12:35 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:25:13 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:25:13 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 17:25:13 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:25:16 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:25:16 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 17:25:16 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:25:19 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:25:19 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 17:25:19 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:28:59 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:28:59 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('why/')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/why')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/why
+---
+2022/02/13 17:28:59 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:29:02 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:29:02 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('why/')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/why')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/why
+---
+2022/02/13 17:29:02 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:29:04 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:29:04 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('why/')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/why')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/why
+---
+2022/02/13 17:29:04 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:29:05 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:29:05 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('why/')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/why')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/why
+---
+2022/02/13 17:29:05 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:29:07 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:29:07 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('why/')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/why')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/why
+---
+2022/02/13 17:29:07 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:29:08 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 17:29:08 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('why/')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/why')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/why
+---
+2022/02/13 17:29:08 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:32:06 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:32:06 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:32:06 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:32:10 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:32:10 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:32:10 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:32:12 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:32:12 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:32:12 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:13 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:13 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:41:13 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:16 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:16 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:41:16 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:18 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:18 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:41:18 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:19 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:19 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:41:19 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:21 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:21 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:41:21 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:23 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:23 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:41:23 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:25 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:25 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:41:25 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:41:28 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists. The SQL statement executed was: CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED primary key AUTO_INCREMENT NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=UTF8 COMMENT = 'Модель пользователя проекта. Содержит уникальные для проекта функции.'.
+2022/02/13 22:41:28 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists in /var/www/html/lib-Yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbCommand.php(1324): CDbCommand->execute()
+#1 /var/www/html/lib-Yii/components/ActiveRecordHelper.php(373): CDbCommand->createTable('users', Array, 'ENGINE=InnoDB D...')
+#2 /var/www/html/lib-Yii/components/DbMigration.php(103): ActiveRecordHelper::executeMigrationForModel('User', Object(Hs\Db\MigratorDbConnection), true)
+#3 /var/www/html/protected/migrations/_01_InitMigration.php(17): DbMigration->createMigrationForModel('User')
+#4 /var/www/html/lib-Yii/components/DbMigration.php(39): _01_InitMigration->up()
+#5 /var/www/html/lib-Yii/components/Migrator.php(354): DbMigration->execute()
+#6 /var/www/html/lib-Yii/components/Migrator.php(256): Migrator->applyMigration(Object(_01_InitMigration))
+#7 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#10 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#11 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /var/www/html/index.php(6): CApplication->run()
+#13 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:41:29 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists. The SQL statement executed was: CREATE TABLE `users` (
+	`id` INT(11) UNSIGNED primary key AUTO_INCREMENT NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=UTF8 COMMENT = 'Модель пользователя проекта. Содержит уникальные для проекта функции.'.
+2022/02/13 22:46:00 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:46:00 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:46:00 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:46:03 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:46:03 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:46:03 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:46:05 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:46:05 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:46:05 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:46:06 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused
+2022/02/13 22:46:06 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection. in /var/www/html/lib-Yii/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/lib-Yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/lib-Yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/lib-Yii/components/DbConnection.php(46): CDbConnection->init()
+#3 /var/www/html/lib-Yii/framework/base/CModule.php(387): DbConnection->init()
+#4 /var/www/html/lib-Yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#5 /var/www/html/lib-Yii/components/Migrator.php(231): CApplication->getDb()
+#6 /var/www/html/lib-Yii/components/BaseController.php(138): Migrator->applyNewMigrations()
+#7 /var/www/html/lib-Yii/framework/web/CWebApplication.php(359): BaseController->__construct('site', NULL)
+#8 /var/www/html/lib-Yii/framework/web/CWebApplication.php(276): CWebApplication->createController('')
+#9 /var/www/html/lib-Yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site')
+#10 /var/www/html/lib-Yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/index.php(6): CApplication->run()
+#12 {main}
+REQUEST_URI=/site
+---
+2022/02/13 22:46:07 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Connection refused

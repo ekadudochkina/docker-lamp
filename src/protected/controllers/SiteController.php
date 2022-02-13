@@ -14,8 +14,9 @@ class SiteController extends Controller
     public function actionIndex()
     {
 
-        $this->setLayout('main');
-	     $this->render('home');
+        phpinfo();
+        //$this->setLayout('main');
+	     //$this->render('home');
     }
 
     public function actionWhy()
