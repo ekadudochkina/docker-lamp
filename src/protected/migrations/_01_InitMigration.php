@@ -14,7 +14,6 @@ class _01_InitMigration extends DbMigration
     public function up()
     {
         //Пример применения автоматической миграции
-
         $this->createMigrationForModel("User");
 
         

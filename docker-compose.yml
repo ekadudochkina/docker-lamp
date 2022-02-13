@@ -1,7 +1,9 @@
 version: "3"
 services:
   php:
-    image: php:7.4-fpm
+    build:
+      context: ./
+      dockerfile: Dockerfile
     volumes:
     - './src:/var/www/html'
 
@@ -14,6 +16,12 @@ services:
         - './docker/nginx/conf.d:/etc/nginx/conf.d'
 
   mysql:
-      image: mysql:8
+      image: mysql:5.7
+      ports:
+        - 3306:3306
       environment:
         - MYSQL_ROOT_PASSWORD=root
+        - MYSQL_DATABASE=docker-lamp
+        - MYSQL_USER=user
+        - MYSQL_PASSWORD=root
+

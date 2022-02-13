@@ -276,7 +276,7 @@ class Bootstraper
             return;
 
         $projectName = $arr['name'];
-        $connection = mysqli_connect("127.0.0.1", $db['username'], $db['password']);
+        $connection = mysqli_connect($db['host'], $db['username'], $db['password']);
         if ($drop) {
             $sql = "DROP database `$projectName`";
             mysqli_query($connection, $sql);

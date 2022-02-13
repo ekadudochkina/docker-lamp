@@ -10,18 +10,6 @@ class _02_DataMigration extends DbMigration
 {
     public function up()
     {
-        $admin = new SimpleAdmin();
-        $admin->setLogin("admin");
-        $admin->setEmail("admin@home-studio.pro");
-        $admin->setPassword("1q2w3e4rDD");
-        $this->saveModel($admin);
-        
-        if(EnvHelper::isProduction())
-        {
-            $this->createItems(null);
-            $this->createBlog();
-            return true;
-        }
         
         $user = new User();
         $user->setName("Alex Hawks");
