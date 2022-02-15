@@ -13,15 +13,18 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-
-        phpinfo();
-        //$this->setLayout('main');
-	     //$this->render('home');
+        //$homepage = file_get_contents('http://127.0.0.1:3000/');
+        //var_dump($homepage);
+        //phpinfo();
+        $this->setLayout('main');
+	     $this->render('home');
     }
 
     public function actionWhy()
     {
 
+        //$homepage = file_get_contents('http://127.0.0.1:3000/');
+        //var_dump($homepage);
         $this->setLayout('main');
         $this->render('why');
     }
